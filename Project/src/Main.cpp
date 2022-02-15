@@ -24,7 +24,7 @@ public:
 		printf("Animal Constructor constructed\n");
 	}
 	
-	~Animal()
+	virtual ~Animal()
 	{
 		printf("Animal Destructor destructed\n");
 	}
